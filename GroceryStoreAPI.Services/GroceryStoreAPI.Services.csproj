@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GroceryStoreAPI.Data\GroceryStoreAPI.Data.csproj" />
+    <ProjectReference Include="..\GroceryStoreAPI.Domain\GroceryStoreAPI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
